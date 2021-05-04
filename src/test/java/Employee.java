@@ -8,8 +8,6 @@ public class Employee {
     private String lastName;
     private double salary;
     private static List<Employee> employees = new ArrayList<>();
-    PayRoll payROll = new PayRoll();
-
 
     public Employee(String name, String lastName, double salary) {
         this.firstName = name;
@@ -21,30 +19,14 @@ public class Employee {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 
     public double getSalary() {
         return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-//
-
-    public Employee() {
-
     }
 
 

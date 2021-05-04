@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class PayRoll {
-    private static int rows = 5;
+    private static int rows = 2;
     private static String firstName;
     private static String lastName;
     private static double salary;
